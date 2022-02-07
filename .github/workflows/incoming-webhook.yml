@@ -10,11 +10,11 @@ jobs:
         with:
           args: index.php
       - name: PHPMD check
-      - uses: MilesChou/php-tools-action/5.6/phpmd@master
+        uses: MilesChou/php-tools-action/5.6/phpmd@master
         with:
           args: index.php
       - name: PHPMD check
-      - uses: MilesChou/php-tools-action/5.6/phpmetrics@master
+        uses: MilesChou/php-tools-action/5.6/phpmetrics@master
         with:
           args: index.php
         
