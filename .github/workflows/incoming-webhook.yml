@@ -9,3 +9,12 @@ jobs:
         uses: MilesChou/php-tools-action/phpcs@master
         with:
           args: index.php
+      - name: PHPMD check
+      - uses: MilesChou/php-tools-action/5.6/phpmd@master
+        with:
+          args: index.php
+      - name: PHPMD check
+      - uses: MilesChou/php-tools-action/5.6/phpmetrics@master
+        with:
+          args: index.php
+        
